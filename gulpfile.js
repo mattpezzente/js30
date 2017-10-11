@@ -3,7 +3,7 @@ var sass = require('gulp-sass')
 var browserSync = require('browser-sync').create()
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
-var workingDir = 'drum-kit';
+var workingDir = 'js-and-css-clock';
 
 gulp.task('browser-sync', () => {
   browserSync.init({
